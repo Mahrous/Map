@@ -7,17 +7,12 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.location.Address;
-import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -26,17 +21,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.directions.route.AbstractRouting;
-import com.directions.route.Route;
-import com.directions.route.RouteException;
-import com.directions.route.Routing;
-import com.directions.route.RoutingListener;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.internal.OnConnectionFailedListener;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
@@ -46,35 +31,14 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.Polyline;
-import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.mahrous.drivertrackingapp.R;
 
 import com.mahrous.drivertrackingapp.databinding.ActivityMapsBinding;
-
 import com.mahrous.drivertrackingapp.utilities.ForegroundService;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerDragListener {
 
@@ -204,34 +168,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-    private void enableUserLocation() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            return;
-        }
-        mMap.setMyLocationEnabled(true);
-    }
-
-    private void zoomToUserLocation() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            return;
-        }
-        Task<Location> locationTask = fusedLocationProviderClient.getLastLocation();
-        locationTask.addOnSuccessListener(new OnSuccessListener<Location>() {
-            @Override
-            public void onSuccess(Location location) {
-                LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 20));
-            }
-        });
-    }
-
 
     private void setUserLocationMarker(Location location) {
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         if (userLocationMarker == null) {
             MarkerOptions markerOptions = new MarkerOptions();
             markerOptions.position(latLng);
-            markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.car_png));
+            markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.car_pnd));
             markerOptions.rotation(location.getBearing());
             markerOptions.anchor((float)0.5 , (float) 0.5);
             userLocationMarker = mMap.addMarker(markerOptions);
@@ -275,41 +218,23 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void startService() {
+        handler.removeCallbacks(runnable);
+        handlerUpdateLocation.removeCallbacks(runnableUpdateLocation);
         Intent serviceIntent = new Intent(getApplicationContext(), ForegroundService.class);
         serviceIntent.putExtra("inputExtra", "Foreground Service Example in Android");
 
         ContextCompat.startForegroundService(getApplicationContext(), serviceIntent);
-        handler.removeCallbacks(runnable);
-        handlerUpdateLocation.removeCallbacks(runnableUpdateLocation);
+
 
     }
 
-    public static String getAddressFromLatLng(Context context, LatLng latLng) {
-        Geocoder geocoder;
-        List<Address> addresses;
-        geocoder = new Geocoder(context, Locale.getDefault());
-        try {
-            addresses = geocoder.getFromLocation(latLng.latitude, latLng.longitude, 1);
-            return addresses.get(0).getAddressLine(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "";
-        }
-    }
 
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
         mMap = googleMap;
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        enableUserLocation();
-        zoomToUserLocation();
         mMap.setOnMarkerDragListener(this);
-
-
-
-
-
     }
 
 
