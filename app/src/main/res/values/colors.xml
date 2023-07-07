@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Main Color -->
+    <color name="colorPrimary">#FFCC32</color>
+    <color name="colorPrimary_alph">#FFCC32</color>
+    <color name="colorPrimaryDark">#FFCC32</color>
+    <color name="colorAccent">#FFCC32</color>
+
+    <!--   Button Color and other views color -->
+    <color name="colorPrimary2">#2A2E43</color>
+    <color name="colorPrimary3">#D98C1A</color>
+
+
+    <!--    Main background-->
+    <color name="secondary">#F5F7F9</color>
+    <!--    sub background-->
+    <color name="secondary2">#FDFCFC</color>
+
+    <!--   fonts color -->
+    <color name="black">#000000</color>
+    <color name="darkGray">#B2B2B2</color>
+    <color name="fontColorGay">#D1D1D3</color>
+    <color name="fontColor">#D6D6D6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mm">#FFFFFF</color>
+    <color name="fontPrimary">#5ABD8C</color>
+    <color name="text">#707070</color>
+    <color name="red">#F44336</color>
+    <color name="whiteLess">#F9F9F9</color>
+    <color name="second">#384565</color>
+    <color name="second2">#505B6C</color>
+    <color name="second3">#C7C8C9</color>
+
+
+
+
+
+
+
+    <color name="lightGray">#F5F7F9</color>
+
+    <color name="Black">#000000</color>
+    <color name="msg_error">#FFFF0000</color>
+
+    <color name="wrong_answer">#EC0127</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="green">#50CC1A</color>
+    <color name="hints">#CCCCCC</color>
+    <color name="subGray">#707070</color>
+    <color name="sub">#08000000</color>
+    <color name="EMLEBlack">#212121</color>
+    <color name="placeholder">#dddd</color>
+    <color name="transparent">#00000000</color>
+    <color name="EMLEBlackGray">#1A1818</color>
+    <color name="EMLEDarkGray">#08000000</color>
+
+
+    <color name="default_button">#DCDCDC</color>
+    <color name="EMLEBackground">#F4F4F7</color>
+
+
+    <color name="lightBlue">#56CCF2</color>
+    <color name="lightBorder">#D8D8D8</color>
+    <color name="fillGrayOpicty">#73EFEFEF</color>
+
+    <!-- planner -->
+    <color name="LinearGray">#ECECEC</color>
+    <color name="textGray">#767676</color>
+    <color name="yellow">#FFEB3B</color>
+
+    <color name="whit">#FFFFFF</color>
+    <color name="gray">#B3B1B1</color>
+
+    <color name="purple_200">#FFCC32</color>
+    <color name="purple_500">#FFCC32</color>
+    <color name="purple_700">#FFCC32</color>
+    <color name="teal_200">#FFCC32</color>
+    <color name="teal_700">#FFCC32</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+
+</resources>

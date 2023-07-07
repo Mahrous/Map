@@ -1,0 +1,205 @@
+<resources>
+
+
+    <string name="app_name">Lotfy Driver</string>
+
+
+    <string name="gain_more_features">gain more features</string>
+    <string name="sign_up">تسجيل حساب</string>
+    <string name="password">كلمة المرور</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="name">الأسم</string>
+    <string name="company_name">إسم الشركه</string>
+    <string name="company_add">عنوان الشركه</string>
+    <string name="company_phone">تيليفون الشركه</string>
+    <string name="retype_password">تأكيد كلمة المرور</string>
+    <string name="Continue">إستمر</string>
+    <string name="our"> </string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+
+
+    <string name="forget_password">هل نسيت كلمة المرور ؟</string>
+    <string name="please_check_your_email_or_password">تحقق من بريدك الإلكتروني أو كلمة المرور وحاول مرة أخرى.</string>
+    <string name="error_msg">اتصال إنترنت بطيء أو معدوم ، يُرجى ضبط إعدادات الإنترنت لديك.</string>
+    <string name="wrong_android_id">Another device is using this account.</string>
+    <string name="something_error_msg">حدث خطأ ما. أعد المحاولة من فضلك.</string>
+    <string name="process">جاري المعالجة</string>
+
+    <string name="login">تسجيل الدخول</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="enter_email">من فضلك أدخل البريد الإلكتروني</string>
+    <string name="email_exist">هذا البريد موجود من قبل.</string>
+    <string name="enter_password">من فضلك ادخل كلمة المرور</string>
+    <string name="invalid_email">نمط البريد غير صحيح </string>
+    <string name="enter_name">من فضلك ادخل الإسم</string>
+    <string name="confirm_pass_error">كلمتا المرور غير متطابقين</string>
+    <string name="empty_pass">من فضلك ادخل كلمة المرور</string>
+
+    <string name="invalid_password">من أجل أمانك ، يجب أن تتكون كلمة المرور من 8 أحرف ، وتحتوي على حرف كبير واحد على الأقل وحرف صغير واحد ورقم واحد. </string>
+    <string name="process_signup">عملية التسجيل</string>
+    <string name="sign_up_with_email">تسجيل الدخول بإستخدام البريد الألكتروني</string>
+    <string name="register_now">سجل الآن</string>
+    <string name="not_register_email">بريد الاكتروني غير موجود</string>
+    <string name="internet_error_msg">من فضلك تأكد من الإتصال بالإنترنت</string>
+    <string name="phone_exist">رقم الهاتف موجود</string>
+    <string name="success_signup">تسجيل الحساب تم بنجاح</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="enter_birthday">ادخل تاريخ الميلاد</string>
+    <string name="already_have_an_account">بالفعل تمتلك حساب</string>
+    <string name="other">اخرى</string>
+    <string name="welcome">مرحبا</string>
+    <string name="welcome_back">مرحبا بعودتك !</string>
+    <string name="begain">إنها البداية ، ستتلقى رسالة تفعيل على:</string>
+    <string name="begain2">ابق على اتصال ، شكرا لك </string>
+    <string name="title_activity_main_tab">MainTab</string>
+    <string name="title_home">الصفحه الرئيسيه</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="current_trip_title">الحالية</string>
+    <string name="pending_trips">قيد الإنتظار</string>
+    <string name="all_trips">الكل</string>
+    <string name="end_trip_titles">منتهية</string>
+    <string name="cancel_trips">ملغية</string>
+    <string name="refused_trips">مرفوض</string>
+
+
+    <string name="call">اتصال</string>
+    <string name="users">قائمة العملاء</string>
+    <string name="user_all_trip">جميع رحلات المستخدم</string>
+    <string name="no_data_to_show">لا يوجد بيانات</string>
+    <string name="refuse">مرفوض</string>
+    <string name="from">من</string>
+    <string name="details">التفاصيل</string>
+    <string name="to">الي</string>
+    <string name="car_type">نوع السياره :</string>
+    <string name="trip_state">حالة الرحلة :</string>
+    <string name="confirm_trip">تأكيد</string>
+    <string name="success">عملية ناجحه</string>
+    <string name="success_change_password">تم تغيير كلمة المرور بنجاح</string>
+    <string name="faild_change_password">لم يتم تغيير كلمة المرور , تأكد من كلمة المرور القديمة</string>
+    <string name="managed_by">تم إدارة الرحلة من مسؤال اخر , برجاء تحديث الصفحه</string>
+    <string name="account">الحساب</string>
+    <string name="address">العنوان</string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="note">ملاحظه</string>
+    <string name="do_u_want_leave_without_save_changes">هل تريد المغادرة دون حفظ التغييرات ؟ </string>
+    <string name="ok">نعم</string>
+    <string name="no">لا</string>
+    <string name="select_image">اختر صورة</string>
+    <string name="reports">تقارير الرحلات</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="setting">الإعدادت</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="profile">الصفجة الشخصية</string>
+    <string name="no_account_yet">ليس لديك حساب ؟</string>
+    <string name="request_admin">طلبات المديرين الآخرين</string>
+    <string name="change">تغيير</string>
+    <string name="add_user">إضافة مستخدم</string>
+    <string name="not_added">لم يتم إضافة المستخدم</string>
+    <string name="trip">الرحلات</string>
+    <string name="start_date">وقت البداية</string>
+    <string name="end_date">وقت الإنتهاء</string>
+    <string name="trips">الرحلات</string>
+    <string name="disable">تعطيل</string>
+    <string name="pickup_location">مكان الانطلاق</string>
+    <string name="destination_location">مكان الوصول</string>
+    <string name="kilos">الكيلو مترات</string>
+    <string name="enabled">تشغيل</string>
+    <string name="show_all">رؤية المزيد</string>
+    <string name="profile_details">بيانات الملف الشخصي</string>
+    <string name="user_detail">تفاصيل المستخدم</string>
+    <string name="unconfirmed_email">لم يتم التحقق من حسابك بعد ، إذا واجهتك مشكلة ، فاتصل بنا على: 01010008007</string>
+    <string name="anualy">سنويا</string>
+    <string name="monthly">شهريا</string>
+    <string name="time">وقت محدد</string>
+    <string name="please_select_method">من فضلك اختر طريقه محدده لعرض التقرير</string>
+
+    <string name="dababa">Dababa</string>
+    <string name="dopl_capina">Double capina</string>
+    <string name="malaky">Mallaky</string>
+    <string name="micro_bus">Micro bus</string>
+    <string name="bus">Bus</string>
+
+
+    <string name="trip_statisitcs">احصائيات الرحلات :</string>
+    <string name="this_week">هذا الأسبوع</string>
+    <string name="company_details">تفصيل الشركة</string>
+    <string name="user_details">بيانات المستخدم :</string>
+    <string name="warning">تحذير ، تم حذف هذا الحساب ، ولا يمكن للمستخدم استخدام هذا الحساب قبل النقر فوق زر الاستعادة</string>
+    <string name="recently">الحالي</string>
+    <string name="all_">كل الرحلات</string>
+    <string name="enter_your_email_and_we_will_code_to_your_mail">ُادخل البريد الألكتروني ليصلك رسالة التأكيد</string>
+    <string name="email_varify">رمز التحقق من البريد الإلكتروني</string>
+    <string name="code_send">تم إرسال الرمز إلى:</string>
+    <string name="didnt_recive">ألم تتلق رمز؟</string>
+    <string name="request">اعادة ارسال الرمز</string>
+    <string name="send_another">أرسل إلى بريد إلكتروني آخر</string>
+    <string name="confirm_password">أعد إدخال كلمة السر</string>
+    <string name="send_code">أرسل الرمز</string>
+    <string name="invalid_code">الرمز غير صحيح</string>
+    <string name="check_your_email">رمز غير صحيح , الرجاء إعادة التحقق من البريد</string>
+    <string name="accepted">تم القبول</string>
+    <string name="done">تم</string>
+    <string name="destination">جهة الوصول</string>
+    <string name="request_ve">أطلب السيارة</string>
+
+    <string name="speed_limit">حدود السرعة</string>
+    <string name="national_id">الرقم القومي</string>
+    <string name="licence_end_date">تاريخ انتهاء الرخصة</string>
+    <string name="licence_is_ended">الرخصه منتهية</string>
+
+
+    <string name="enter_dist">من فضلك ادخل جهة الوصول</string>
+    <string name="enter_pick">من فضلك ادخل نقة البداية</string>
+    <string name="show_on_map">أظهر في الخريطه</string>
+    <string name="car_type_">نوع السيارة</string>
+    <string name="comment">تعليق</string>
+    <string name="distance">المسافه</string>
+    <string name="verifyPassword">تأكيد كلمة المرور</string>
+    <string name="enter_yor_password">لأجل حمايتك , ادخل كلمة المرور</string>
+    <string name="enter_yor_password_">أدخل كلمة المرور</string>
+    <string name="next">التالي</string>
+    <string name="password_incorrectt">كلمة المرور غير صحيحه</string>
+    <string name="change_email">تغيير البريد الإلكتروني</string>
+    <string name="Save">حفظ التغييرات</string>
+    <string name="change_phone">تغيير الهاتف</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="phone_not_valid">رقم الهاتف غير صحيح</string>
+
+    <string name="pending_email">لا يزال حسابك قيد التحقق ، إذا واجهتك مشكلة ، فاتصل بنا على :01010008007 </string>
+    <string name="confirm">تأكيد</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="open_location_settings">افتح الموقع</string>
+    <string name="gps_network_not_enabled">افتح محدد المواقع GPS</string>
+    <string name="make_request">يمكنك القيام برحلة الآن!</string>
+    <string name="search">إبحث عن مكان</string>
+    <string name="do_u_want_to_leave">هل ترغب في المغادرة ؟</string>
+    <string name="yes">نعم</string>
+    <string name="start_trip">إبدأ الرحلة</string>
+    <string name="start_trip_">إبدأ</string>
+    <string name="end_trip">إنهاء الرحلة</string>
+    <string name="licence_enddate">تاريخ انتهاء الترخيص</string>
+    <string name="select_car">من فضلك أختر سيارة</string>
+    <string name="insert_licence">ادخل صورة الرخصة</string>
+    <string name="car_typ">نوع السيارة</string>
+    <string name="update_status">تغيير حالة الاتصال</string>
+    <string name="status_active">قم بالتبديل إلى وضع الاتصال بالإنترنت وغير متصل</string>
+    <string name="status_content">إذا تم إيقاف هذا النشاط ، فهذا يعني أنك لم تظهر على الخريطة ولم تكن مستعدًا لبدء أي رحلة</string>
+    <string name="speed_excced">تجاوزات السرعه</string>
+    <string name="busy">انت الان في رحلة , الرجاء انهاء الرحلة الحالية</string>
+    <string name="pinding">قيد الانتظار</string>
+    <string name="add_comment">أضف تعليق</string>
+    <string name="car_cat" >فئة السيارة</string>
+    <string name="description">من فضلك أدخل تفاصيل السيارع</string>
+    <string name="please_select_car_cat">من فضلك أختر فئة السيارة</string>
+    <string name="select">Select</string>
+
+
+</resources>

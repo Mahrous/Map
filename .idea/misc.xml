@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/custom_border_line.xml" value="0.142" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/custom_eye.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/ic_back_arrow.xml" value="0.142" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/ic_baseline_directions_car_24.xml" value="0.1355" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/ic_calender_icon.xml" value="0.35104166666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/ic_minus.xml" value="0.2203125" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/text_feild_border.xml" value="0.142" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/drawable/white_background.xml" value="0.142" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_login.xml" value="0.32135416666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_maps.xml" value="0.22" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_my_profile.xml" value="0.20427305888483585" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_show_image.xml" value="0.18854166666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_sign_up_first_page.xml" value="0.22" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_sign_up_second_page.xml" value="0.2" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_trips.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_update_state.xml" value="0.22" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/activity_welcome_page.xml" value="0.32135416666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/layout/single_row_trips.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyDriver/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/drawable/shap_sheet_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/layout/activity_maps.xml" value="0.22" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/layout/activity_splash_screen.xml" value="0.13854166666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/layout/single_row_trip_user.xml" value="0.35052083333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/LotfyUser/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1546875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/active_dot.xml" value="0.18125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/border2.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/bus_icon.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/circle.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/circle_red.xml" value="0.2203125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/green_circle.xml" value="0.23125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_local_mall_24.xml" value="0.19270833333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_location_green.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_location_red.xml" value="0.3828125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.959375" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_icons_transport_bus.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_logout.xml" value="0.19270833333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_right_arrow.xml" value="0.19114583333333332" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/ic_setting_blue.xml" value="0.19270833333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/inactive_dot.xml" value="0.18125" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shap4.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shap_profile.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shap_sheet_dialog.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shape_bottom.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shape_oval_prime.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/drawable/shape_strok_with_cornor.xml" value="0.2046875" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_change_password.xml" value="0.3104166666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_confirm_code.xml" value="0.20260416666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_forget_password.xml" value="0.3104166666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_login.xml" value="0.23541666666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_main.xml" value="0.23541666666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_maps.xml" value="0.22" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_my_profile.xml" value="0.22916666666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_reset_password.xml" value="0.3104166666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_search_places.xml" value="0.25" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_setting.xml" value="0.23177083333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_splash_screen.xml" value="0.3104166666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/activity_trips.xml" value="0.22916666666666666" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/change_user_name.xml" value="0.26458333333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/error_message_dialog.xml" value="0.35104166666666664" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/item_bouttom_sheet_trip.xml" value="0.25" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/item_car_type_recycler.xml" value="0.25" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/item_recycler_places_list.xml" value="0.175" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/shimmer_single_row_trips.xml" value="0.20260416666666667" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/shimmer_user_profile.xml" value="0.325" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/single_row_trip_user.xml" value="0.23177083333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/single_row_trips.xml" value="0.23177083333333334" />
+        <entry key="..\:/Projects/TrackingLotfy/user/app/src/main/res/layout/update_dialog.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/drawable/border.xml" value="0.2203125" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/drawable/ic_ask_icon.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/font/font.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/activity_stuent_second_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/activity_welcom_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/AndroidStudioProjects/TestTask/app/src/main/res/layout/update_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_asterisk.xml" value="0.285" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.135" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.135" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_baseline_directions_car_24.xml" value="0.1295" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2965" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_car_ic.xml" value="0.1695" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_down_arrow_icon.xml" value="0.135" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_down_arrow_icon_red.xml" value="0.135" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_icon.xml" value="0.115" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/ic_rectangle_286.xml" value="0.2965" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/shap_trips_button.xml" value="0.1965" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/shap_trips_start.xml" value="0.1965" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/shape_circle.xml" value="0.14" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/shape_doc_.xml" value="0.272" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/drawable/shape_oval_prime2_nofill.xml" value="0.135" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_change_email.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_change_phone.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_check_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_driver_tracking.xml" value="0.22" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_main_tab.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_maps.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_sign_up_first_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_sign_up_second_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_trips.xml" value="0.33" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/activity_update_state.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/fragment_trips.xml" value="0.1" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/item_bottom_sheett_dialog_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/item_string.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/layout/single_row_trips.xml" value="0.22" />
+        <entry key="..\:/Users/Mahrous/Desktop/Lotfy-Somatomo/LotfyDriver/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
