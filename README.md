@@ -1,3 +1,3 @@
-# lotfy_user
-# lotfy_driver
 # Map
+# Forground  service to get current location
+# Background service to get current location
